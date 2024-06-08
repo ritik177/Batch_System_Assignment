@@ -44,6 +44,10 @@ The design's responsiveness is a crucial aspect, ensuring that the page adapts s
 
 The Figma file played a vital role in the development of this landing page. It provided a visual blueprint for the layout, color scheme, typography, and overall aesthetic. The meticulous translation of this visual guide into code ensures that the final product remains faithful to the original design vision while being fully functional and interactive.
 
+### Color Switch Feature
+Toggle Button: Allows users to switch between light and dark themes, providing a customizable user experience that caters to individual preferences.
+
+
 ### Conclusion
 
 In summary, the Finance Bank landing page combines modern design principles with robust functionality to create an engaging and trustworthy platform for users. By focusing on key elements such as the header, hero section, services offered, client testimonials, and footer, and utilizing technologies like HTML and CSS for responsive design, this landing page successfully meets the needs of today’s diverse user base. The inspiration from the Figma file ensures a visually appealing and cohesive design, making it an exemplary digital touchpoint for the bank.

@@ -338,6 +338,64 @@ footer button{
 }
 
 
+/* Color switcher button */
+.color-switcher {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.dark-theme {
+    --background-color: #2c2c2c;
+    --text-color: #f0f0f0;
+    --primary-color: #FF5555;
+}
+
+.light-theme {
+    --background-color: #fcf7f7;
+    --text-color: #000;
+    --primary-color: #FF5555;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav ul li a {
+    color: var(--text-color);
+}
+
+nav button, .hero button, .app button, footer button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+/* Ensure other elements use the theme variables */
+.hero h1,
+.hero p,
+.features-section h1,
+.features-section p,
+.advantages h1,
+.advantages p,
+.customized-section h1,
+.customized-section p,
+.testimonials h1,
+.testimonials p,
+.faq h1,
+.faq p,
+footer p {
+    color: var(--text-color);
+}
+
+
 /* responsiveness */
 @media (max-width:725px){
     .hero,.feature,.advantages,.customized,.testimonials{
